@@ -1,0 +1,80 @@
+{
+  materials: [
+    {
+      name: 'material_0',
+      parameters: [
+        {
+          baseColorFactor: [
+            0.65924099999999997,
+            0.63404899999999997,
+            0.52045600000000003,
+            1,
+          ],
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: 0.10000000000000001,
+        },
+        {
+          roughnessFactor: 0.72999999999999998,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampleData/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.24013000000000002,
+  },
+  version: '0.54:2',
+}

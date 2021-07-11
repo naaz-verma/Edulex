@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8e3ec"
+    tools:context=".sign_in">
+
+
+    <EditText
+        android:id="@+id/email_in"
+        android:layout_width="284dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/emaillogo"
+        android:drawablePadding="10dp"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#C3F9FFBE" />
+
+
+    <EditText
+        android:id="@+id/username_in"
+        android:layout_width="284dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/email_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/emaillogo"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:shadowColor="#C3F9FFBE" />
+
+    <EditText
+        android:id="@+id/password_in"
+        android:layout_width="284dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/email_in"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/paslogo"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/sign_inin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_in"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/buttonn"
+        android:text="Log in" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="137dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/sign_inin"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="230dp"
+
+        app:srcCompat="@drawable/gg" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="367dp"
+        android:layout_height="470dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="-59dp"
+        app:srcCompat="@drawable/hathi" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="216dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/edulex" />
+
+
+</RelativeLayout>
